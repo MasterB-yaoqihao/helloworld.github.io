@@ -1,0 +1,1 @@
+let navs=document.querySelectorAll(".nav-item");let pagePath=window.location.pathname;for(let t of navs){let a=t.getAttribute("data-path");if(a&&a===pagePath){t.className="nav-item active"}}
